@@ -19,6 +19,18 @@ import java.util.Iterator;
 /**
  * Provides a lightweight interface with the system console for user IO.
  * Provides an easy means of formatting log files for console IO.
+ * <p>
+ * Example implementation:<br>
+ * <pre>
+ * public class SomeClass implements ConsoleListener
+ * {
+ *  	final ConsoleManager CM = new ConsoleManager();
+ * 	CM.beginLogging(CM.getCWD() + "/logs/");
+ * 	CM.beginListening();
+ * 
+ * 	public synchronized void userInput(ConsoleEvent e){}
+ * }
+ * </pre>
  * 
  * @author Nicholas Harrell
  */
