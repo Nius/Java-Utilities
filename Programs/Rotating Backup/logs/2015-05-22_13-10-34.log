@@ -1,0 +1,12 @@
+[2015-05-22_13-10-34][ERROR]        Failed to load config file:
+
+[2015-05-22_13-10-34]                    C:\Users\Nius\eclipse\workspace\RotatingBackup\./Config.xml
+
+[2015-05-22_13-10-34]                    File should be in XML format and have these data:
+
+[2015-05-22_13-10-34]                         <PARAM FREQUENCY=int DEPTH=int />
+
+[2015-05-22_13-10-34]                         <ENTRY PATH=string />
+
+[2015-05-22_13-10-34]                         <ENTRY PATH=string />
+
